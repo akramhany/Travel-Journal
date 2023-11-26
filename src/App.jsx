@@ -5,14 +5,17 @@ import Navbar from "./components/navbar/Navbar.jsx"
 import Journey from './components/journey/Journey.jsx'
 import data from './data.js'
 
+let num = 0;
+
 function App() {
 
   const journies = data.map(journey => 
     <>
-      <Journey 
+      <Journey
+        key={num++} 
         {...journey}
       />
-      {journey != data[data.length - 1] ? <hr></hr> : <></>}
+      {journey != data[data.length - 1] ? <hr></hr> : <div className="faded"></div>}
     </>
     );
 

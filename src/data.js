@@ -18,7 +18,7 @@ export default [
     }
     ,
     {
-        img:"./journey3.jpg",
+        img:"./journey4.jpg",
         country:"NORWAY",
         place:"Geirangerfjord",
         startDate:"01 Oct, 2021",
