@@ -22,5 +22,86 @@
 
 .journies {
   margin-top: 45px;
-  width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.journey {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 550px;
+  gap: 20px;
+}
+
+.journey--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.journey--img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.gps {
+  width: 12px;
+  height: 12px;
+}
+
+.country-details {
+  display: flex;
+  align-items: center;
+}
+
+.country-name {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  margin-left: 3px;
+}
+
+.country-address {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: Inter;
+  color: #918E9B;
+  text-decoration: none; 
+  border-bottom: 1.5px solid #918E9B;
+  display: inline-block; 
+}
+
+.journey-place {
+  font-family: Inter;
+  font-size: 33px;
+  font-weight: 800;
+  color: #2B283A;
+  margin-top: 5px;
+}
+
+.journey-date {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 23px;
+  margin-bottom: 10px;
+  color: #2B283A;
+}
+
+.journey-description {
+  font-size: 12px;
+  font-family: Inter;
+  color: #2B283A;
+}
+
+hr {
+  background-color: #F5F5F5;
+  margin: 25px auto;
+  width: 60vw;
+  border: none;
+  height: 2px;
 }
